@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day2</title>
+</head>
+<body>
+    <h1>form to apply for sigma joke and laugh</h1>
+    <form action="post">  <!-- post request is provided to give much data -->
+        <div> <!--  div, it is a block element -->
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="enter your username" autofocus> 
+            
+            <!-- autofocus is used for focusing on the text & //id is used to provide unique identity   -->
+
+        </div>
+
+        <div>
+            <input type="radio" id="male" name="gender" value="male"> <!-- radio is used for circular button -->
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">female</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">subscribe to get fun</label>
+        </div>
+
+        <div>
+            <textarea name="comment" id="" cols="30" rows="10">enter your comment</textarea> <!-- textarea comment is used to provide the space to writte -->
+        </div>
+
+    </form>
+   <div>
+       <select name="fruits" ><!-- providing the selection -->
+           <option value="apple">apple</option>
+           <option value="mango">mango</option>
+           <option value="orange">orange</option>
+        </select>
+    </div> 
+
+</body>
+</html>

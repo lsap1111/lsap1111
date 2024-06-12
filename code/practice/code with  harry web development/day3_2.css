@@ -1,0 +1,14 @@
+.red{
+   /* background-color: aquamarine; */
+    color: blue;
+}
+/* class are target in css by using "." */
+/* id is represented by "#" */
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+#firstdiv{
+    background-color: red;
+}

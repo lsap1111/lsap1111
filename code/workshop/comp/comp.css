@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav, div, ul{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    gap: 30px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: x-large;
+    gap: 3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-image: url("backg.jpg");
+    color: white;
+  }
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px
+}
+
+.red {
+    color: yellow;
+}
+
+.header-top {
+    display: flex;
+    gap: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 60px;
+    width: 400px;
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+    width: 115rem;
+    height: 56rem;
+}
+
+.bg-image{ url (tyler-lastovich-ddLiNMqWAOM-unsplash.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center}
+
+.header-bottom {
+    .bord3 {
+        border: 2px dashed white;
+        border-radius: 50%;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    .bord1 {
+        border: 2px dashed white;
+        border-radius: 50%;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+    }
+    .bord2 {
+        border: 2px dashed white;
+        border-radius: 50%;
+        padding: 10px;
+        height: 50px;
+        width: 50px;
+    }
+}
+
+#about {
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+ 
+.about-top {
+    text-align: center;
+}
+ 
+.about-top > h2 {
+    margin-bottom: 20px;
+}
+
+.about-bottom {
+    display: flex;
+    gap: 40px;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.button{
+    background-color: yellow;
+    color: black;
+}
+
+#services {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 140px;
+    font-size: 14px;
+    background-color: #def;
+    z-index: 10;
+}
+ 
+.services-part {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 420px;
+}
+ 
+.services-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 4px;
+    width: 440px;
+}
+ 
+.services-card.active {
+    background-color: white;
+    box-shadow: 0 0 10px #0001;
+}
+ 
+.services-card > img {
+    width: 50px;
+}
+ 
+.services-part {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+ 
+.services-part > h3 {
+    font-size: 16px;
+}

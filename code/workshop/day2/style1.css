@@ -1,0 +1,54 @@
+.div1{
+     display: inline-block;
+    width: 50%;
+    background-color: olivedrab;
+    color: aliceblue;
+    padding: 30px;
+    background: linear-gradient(to bottom right, #779900,#0088, rgba(19, 210, 231, 0.533), rgba(137, 160, 61, 0.533));
+}
+
+h1{
+    font-size: 16px;
+}
+button{
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    
+}
+
+.div2{
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(135, 73, 201);
+    color: aliceblue;
+    padding: 30px;
+
+    background: linear-gradient(to bottom right, #c58c41,rgba(66, 136, 0, 0.533), rgba(19, 210, 231, 0.533), rgba(137, 160, 61, 0.533));
+}
+
+h1{
+    font-size: 16px;
+}
+button{
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+    
+    display: grid;
+    align-items: center;
+}
+
+body{
+    margin: 10;
+    display: flex;
+    gap: 10px;
+}   
+button:hover{
+    rotate: 360deg;
+}
